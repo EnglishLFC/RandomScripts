@@ -43,3 +43,7 @@
 *.pyo    binary
 
 *.ipynb  text
+
+*.vim text eol=lf
+.vimrc text eol=lf
+
