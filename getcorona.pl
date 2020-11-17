@@ -54,11 +54,17 @@ print $data->{data}[0]{country} . ":" . "\n"
   . "\tRecovery Rate: " . $recoveryrate . "%\n";
 
 __END__
+
 =head1 getcorona.pl
+
 =head1 DESCRIPTION
+
 =head1 USAGE
+  Just run it.
+
 =head1 AUTHOR
   Nigel Houghton <wutang@warpten.net>
+
 =head1 COPYRIGHT
   (c) Nigel Houghton 2020
 
