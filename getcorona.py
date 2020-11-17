@@ -14,6 +14,8 @@ import time
 
 url = "https://corona-stats.online/US"
 querystring = {"format":"json"}
+headers = {
+        }
 response = requests.request("GET", url, headers=headers, params=querystring)
 data = response.json()
 
