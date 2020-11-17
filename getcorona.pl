@@ -40,7 +40,8 @@ my $json = JSON->new;
 my $data = $json->decode($json_text);
 
 # US Population as of April 6, 2020
-my $uspopulation = 329480988;
+# my $uspopulation = 329480988;
+my $uspopulation = $data->{data}[0]{population};
 my $mortalityrate = sprintf("%.2f", $data->{data}[0]{deaths}/$data->{data}[0]{confirmed} * 100);
 my $recoveryrate = sprintf("%.2f", $data->{data}[0]{recovered}/$data->{data}[0]{confirmed} * 100);
 my $percentinfected = sprintf("%.2f", $data->{data}[0]{confirmed}/$uspopulation * 100);
