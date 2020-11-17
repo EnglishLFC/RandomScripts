@@ -1,2 +1,2 @@
-getcorona.pl ident
-get-moviepass-theaters.pl ident
+*.pl ident
+*.py ident
